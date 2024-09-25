@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(37, 34, 44);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color:  white;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:lightgray;
+}
+
+h3 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 50vh;
+    color: rgb(147, 145, 147);
+    font-family: sans-serif;
+    max-width: 70vh;
+}
+
+.home {
+    background-color: rgb(37, 34, 44);
+    background-color: rgb(37, 34, 44);
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    transition: background-color 0.3;
+    position: absolute;
+    top: 2vh;
+    left: 2vh;
+
+}
+
+.home:hover {
+    background-color: lightslategrey;
+}
